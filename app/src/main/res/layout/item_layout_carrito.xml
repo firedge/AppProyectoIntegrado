@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/iv_cancelar"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/cancel"
+        android:padding="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="999"
+        android:id="@+id/tv_unidades"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/iv_cancelar"
+        android:layout_toStartOf="@+id/iv_cancelar"
+        android:gravity="center"
+        android:layout_marginRight="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="@string/tv_unidades"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/tv_unidades"
+        android:layout_toStartOf="@+id/tv_unidades"
+        android:gravity="center"
+        android:layout_marginRight="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="999"
+        android:id="@+id/tv_precio"
+        android:layout_below="@+id/tv_unidades"
+        android:layout_toLeftOf="@+id/iv_cancelar"
+        android:layout_toStartOf="@+id/iv_cancelar"
+        android:layout_marginRight="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_precio"
+        android:id="@+id/textView4"
+        android:layout_alignTop="@+id/tv_precio"
+        android:layout_toLeftOf="@+id/tv_precio"
+        android:layout_toStartOf="@+id/tv_precio"
+        android:layout_marginRight="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="New Text"
+        android:id="@+id/tv_title"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/textView"
+        android:layout_toStartOf="@+id/textView"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:textStyle="bold" />
+</RelativeLayout>

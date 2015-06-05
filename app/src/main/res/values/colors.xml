@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="myPrimaryColor">#cc0000</color>
+    <color name="myPrimaryDarkColor">#aa0000</color>
+    <color name="myAccentColor">#F00</color>
+    <color name="myTitleText">#212121</color>
+
+    <color name="myTextPrimaryColor">#fff</color>
+
+    <color name="myTabBarColor">#484848</color>
+    <color name="myTabColor">#cc0000</color>
+    <color name="myTabSelectedColor">#aa0000</color>
+
+</resources>

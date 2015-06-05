@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:text="-"
+        android:id="@+id/bt_menos"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#ffee0000"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="40sp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:inputType="number"
+        android:id="@+id/et_unidades"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/bt_menos"
+        android:layout_toEndOf="@+id/bt_menos"
+        android:layout_alignBottom="@+id/bt_menos"
+        android:layout_weight="1"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:text="+"
+        android:id="@+id/bt_mas"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/et_unidades"
+        android:layout_toEndOf="@+id/et_unidades"
+        android:background="#ff00aa00"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="40sp" />
+</LinearLayout>
